@@ -59,7 +59,7 @@ def execute_sparql(query, retries=5):
 
 
 def fetch_all_literature_qids():
-    """1. LÉPÉS: Az összes francia irodalmi személy QID lekérése egyetlen kereséssel."""
+    """1. LÉPÉS: Az összes francia irodalmi személy QID lekérése közvetlen Wikidata QID-k alapján."""
     log("Francia irodalmi személyek QID azonosítóinak lekérése...")
 
     query = """
@@ -68,19 +68,16 @@ def fetch_all_literature_qids():
               wdt:P31 wd:Q5 ;
               wdt:P106 ?occupation .
 
-      ?occupation rdfs:label ?occupationLabel .
-
-      FILTER(
-        LANG(?occupationLabel) = "en" &&
-        LCASE(STR(?occupationLabel)) IN (
-          "poet",
-          "novelist",
-          "playwright",
-          "essayist",
-          "short story writer",
-          "translator"
-        )
-      )
+      VALUES ?occupation {
+        wd:Q482980
+        wd:Q36180
+        wd:Q49757
+        wd:Q6625963
+        wd:Q214917
+        wd:Q11774202
+        wd:Q15949613
+        wd:Q333634
+      }
     }
     """
 
@@ -104,12 +101,12 @@ def fetch_all_literature_qids():
 
 
 def fetch_details_for_batch(qid_chunk):
-    """2. LÉPÉS: 2500 elemes kötegek lekérése rdfs:label használatával."""
+    """2. LÉPÉS: 2500 elemes kötegek lekérése közvetlen Wikidata foglalkozás-QID-k alapján."""
 
     values_str = " ".join([f"wd:{qid}" for qid in qid_chunk])
 
     query = f"""
-    SELECT ?person ?personLabel ?occupationLabel ?article ?website WHERE {{
+    SELECT ?person ?personLabel ?occupation ?article ?website WHERE {{
       VALUES ?person {{ {values_str} }}
 
       OPTIONAL {{
@@ -120,19 +117,16 @@ def fetch_details_for_batch(qid_chunk):
       OPTIONAL {{
         ?person wdt:P106 ?occupation .
 
-        ?occupation rdfs:label ?occupationLabel .
-
-        FILTER(
-          LANG(?occupationLabel) = "en" &&
-          LCASE(STR(?occupationLabel)) IN (
-            "poet",
-            "novelist",
-            "playwright",
-            "essayist",
-            "short story writer",
-            "translator"
-          )
-        )
+        VALUES ?occupation {{
+          wd:Q482980
+          wd:Q36180
+          wd:Q49757
+          wd:Q6625963
+          wd:Q214917
+          wd:Q11774202
+          wd:Q15949613
+          wd:Q333634
+        }}
       }}
 
       OPTIONAL {{
@@ -150,17 +144,19 @@ def fetch_details_for_batch(qid_chunk):
 
 
 def occupation_to_category(occupation):
-    """Wikidata foglalkozás → francia irodalmi kategória."""
+    """Wikidata foglalkozás-QID → francia irodalmi kategória."""
 
-    occupation = occupation.strip().lower()
+    occupation = occupation.strip()
 
     mapping = {
-        "poet": "Poètes",
-        "novelist": "Romanciers",
-        "playwright": "Dramaturges",
-        "essayist": "Essayistes",
-        "short story writer": "Nouvellistes",
-        "translator": "Traducteurs"
+        "Q482980": "Auteurs",
+        "Q36180": "Auteurs",
+        "Q49757": "Poètes",
+        "Q6625963": "Romanciers",
+        "Q214917": "Dramaturges",
+        "Q11774202": "Essayistes",
+        "Q15949613": "Nouvellistes",
+        "Q333634": "Traducteurs"
     }
 
     return mapping.get(occupation)
@@ -314,10 +310,12 @@ def main():
 
                 occupation = (
                     item
-                    .get("occupationLabel", {})
+                    .get("occupation", {})
                     .get("value", "")
                     .strip()
                 )
+
+                occupation_qid = occupation.rsplit("/", 1)[-1]
 
                 wikipedia = (
                     item
@@ -334,7 +332,7 @@ def main():
                 )
 
                 category = occupation_to_category(
-                    occupation
+                    occupation_qid
                 )
 
                 if not name or name == qid:
