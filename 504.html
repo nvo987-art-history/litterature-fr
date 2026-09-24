@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>504 — Gateway Timeout</title>
+
+    <style>
+        :root {
+            --bg: #0b0c10;
+            --surface: rgba(255, 255, 255, 0.055);
+            --border: rgba(255, 255, 255, 0.09);
+            --text: #f7f8fc;
+            --muted: #9ba3b2;
+            --accent: #f5a524;
+            --accent-light: #ffd27a;
+            --shadow: rgba(0, 0, 0, 0.5);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            min-height: 100%;
+        }
+
+        body {
+            min-height: 100vh;
+            min-height: 100dvh;
+            overflow-x: hidden;
+            color: var(--text);
+            font-family:
+                Inter, ui-sans-serif, system-ui, -apple-system,
+                BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background:
+                radial-gradient(
+                    circle at 18% 18%,
+                    rgba(245, 165, 36, 0.16),
+                    transparent 30rem
+                ),
+                radial-gradient(
+                    circle at 82% 82%,
+                    rgba(255, 116, 76, 0.1),
+                    transparent 28rem
+                ),
+                var(--bg);
+        }
+
+        .page {
+            position: relative;
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            min-height: 100dvh;
+            padding: 24px;
+            isolation: isolate;
+        }
+
+        .glow {
+            position: absolute;
+            width: 340px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.18;
+            z-index: -1;
+            animation: drift 10s ease-in-out infinite alternate;
+        }
+
+        .glow.one {
+            top: -120px;
+            left: -120px;
+            background: var(--accent);
+        }
+
+        .glow.two {
+            right: -140px;
+            bottom: -120px;
+            background: #ff7043;
+            animation-delay: -5s;
+        }
+
+        .card {
+            width: min(100%, 700px);
+            padding: clamp(32px, 7vw, 64px);
+            text-align: center;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 30px;
+            box-shadow:
+                0 30px 100px var(--shadow),
+                inset 0 1px 0 rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(20px);
+            animation: reveal 0.8s cubic-bezier(.2, .8, .2, 1) both;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 26px;
+            padding: 8px 14px;
+            color: var(--accent-light);
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            background: rgba(245, 165, 36, 0.09);
+            border: 1px solid rgba(255, 210, 122, 0.16);
+            border-radius: 999px;
+        }
+
+        .badge-dot {
+            width: 7px;
+            height: 7px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: blink 1.8s ease-in-out infinite;
+        }
+
+        .icon-wrap {
+            display: grid;
+            place-items: center;
+            width: 82px;
+            height: 82px;
+            margin: 0 auto 28px;
+            color: var(--accent-light);
+            background: rgba(245, 165, 36, 0.1);
+            border: 1px solid rgba(255, 210, 122, 0.18);
+            border-radius: 25px;
+            animation: clock-pulse 3s ease-in-out infinite;
+        }
+
+        .icon-wrap svg {
+            width: 42px;
+            height: 42px;
+        }
+
+        .error-code {
+            margin-bottom: 14px;
+            font-size: clamp(4.5rem, 15vw, 8.5rem);
+            font-weight: 850;
+            line-height: 0.9;
+            letter-spacing: -0.08em;
+            background: linear-gradient(
+                135deg,
+                #ffffff 15%,
+                var(--accent-light)
+            );
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        h1 {
+            margin-bottom: 16px;
+            font-size: clamp(1.7rem, 5vw, 2.5rem);
+            letter-spacing: -0.04em;
+        }
+
+        .description {
+            max-width: 560px;
+            margin: 0 auto;
+            color: var(--muted);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .status {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 9px;
+            margin: 30px 0 26px;
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .status-line {
+            width: 34px;
+            height: 1px;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                var(--accent),
+                transparent
+            );
+            animation: scan 1.8s ease-in-out infinite;
+        }
+
+        .redirect-info {
+            margin-bottom: 22px;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .countdown {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 32px;
+            height: 32px;
+            margin: 0 4px;
+            color: var(--text);
+            font-weight: 750;
+            background: rgba(245, 165, 36, 0.1);
+            border: 1px solid rgba(255, 210, 122, 0.16);
+            border-radius: 9px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 15px 25px;
+            color: #241600;
+            font-weight: 750;
+            text-decoration: none;
+            background: linear-gradient(
+                135deg,
+                var(--accent-light),
+                var(--accent)
+            );
+            border-radius: 14px;
+            box-shadow: 0 16px 40px rgba(245, 165, 36, 0.18);
+            transition:
+                transform 0.25s ease,
+                box-shadow 0.25s ease,
+                filter 0.25s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.05);
+            box-shadow: 0 22px 50px rgba(245, 165, 36, 0.3);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        .button svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        @keyframes reveal {
+            from {
+                opacity: 0;
+                transform: translateY(22px) scale(0.98);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        @keyframes clock-pulse {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(245, 165, 36, 0.12);
+            }
+
+            50% {
+                transform: scale(1.03);
+                box-shadow: 0 0 0 12px rgba(245, 165, 36, 0);
+            }
+        }
+
+        @keyframes blink {
+            0%, 100% {
+                opacity: 0.4;
+                transform: scale(0.9);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(1.15);
+            }
+        }
+
+        @keyframes scan {
+            0%, 100% {
+                opacity: 0.3;
+                transform: scaleX(0.6);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scaleX(1.2);
+            }
+        }
+
+        @keyframes drift {
+            from {
+                transform: translate(0, 0) scale(1);
+            }
+
+            to {
+                transform: translate(45px, 35px) scale(1.12);
+            }
+        }
+
+        @media (max-width: 520px) {
+            .page {
+                padding: 16px;
+            }
+
+            .card {
+                border-radius: 24px;
+            }
+
+            .icon-wrap {
+                width: 70px;
+                height: 70px;
+                border-radius: 22px;
+            }
+
+            .description {
+                font-size: 0.98rem;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="page">
+        <div class="glow one"></div>
+        <div class="glow two"></div>
+
+        <section class="card" aria-labelledby="error-title">
+            <div class="badge">
+                <span class="badge-dot" aria-hidden="true"></span>
+                Connection timeout
+            </div>
+
+            <div class="icon-wrap" aria-hidden="true">
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <circle cx="12" cy="12" r="8"></circle>
+                    <path d="M12 8v4l2.5 2"></path>
+                    <path d="M19 5l1.5-1.5"></path>
+                </svg>
+            </div>
+
+            <div class="error-code">504</div>
+
+            <h1 id="error-title">Gateway timeout</h1>
+
+            <p class="description">
+                The server took too long to respond. The connection between
+                servers timed out before your request could be completed.
+            </p>
+
+            <div class="status">
+                <span class="status-line" aria-hidden="true"></span>
+                Please try again in a moment
+                <span class="status-line" aria-hidden="true"></span>
+            </div>
+
+            <p class="redirect-info">
+                Returning you to the homepage in
+                <span class="countdown" id="countdown">8</span>
+                seconds.
+            </p>
+
+            <a href="/" class="button">
+                Back to homepage
+
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                >
+                    <path d="M5 12h14"></path>
+                    <path d="m13 6 6 6-6 6"></path>
+                </svg>
+            </a>
+        </section>
+    </main>
+
+    <script>
+        (() => {
+            const homepage = "/";
+            const countdownElement = document.getElementById("countdown");
+            let remaining = 8;
+
+            const timer = setInterval(() => {
+                remaining -= 1;
+                countdownElement.textContent = remaining;
+
+                if (remaining <= 0) {
+                    clearInterval(timer);
+                    window.location.href = homepage;
+                }
+            }, 1000);
+        })();
+    </script>
+</body>
+</html>

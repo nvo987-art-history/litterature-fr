@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>404 — Page Not Found</title>
+
+    <style>
+        :root {
+            --bg: #08090d;
+            --surface: rgba(255, 255, 255, 0.055);
+            --surface-border: rgba(255, 255, 255, 0.09);
+            --text: #f5f7fb;
+            --muted: #9aa3b2;
+            --accent: #7c5cff;
+            --accent-light: #a996ff;
+            --shadow: rgba(0, 0, 0, 0.45);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            min-height: 100%;
+        }
+
+        body {
+            min-height: 100vh;
+            min-height: 100dvh;
+            overflow-x: hidden;
+            color: var(--text);
+            font-family:
+                Inter, ui-sans-serif, system-ui, -apple-system,
+                BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background:
+                radial-gradient(circle at 15% 20%, rgba(124, 92, 255, 0.18), transparent 28rem),
+                radial-gradient(circle at 85% 80%, rgba(72, 190, 255, 0.1), transparent 26rem),
+                var(--bg);
+        }
+
+        .page {
+            position: relative;
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            min-height: 100dvh;
+            padding: 24px;
+            isolation: isolate;
+        }
+
+        .orb {
+            position: absolute;
+            width: 320px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            filter: blur(90px);
+            opacity: 0.3;
+            z-index: -1;
+            animation: drift 12s ease-in-out infinite alternate;
+        }
+
+        .orb.one {
+            top: -140px;
+            left: -120px;
+            background: var(--accent);
+        }
+
+        .orb.two {
+            right: -150px;
+            bottom: -120px;
+            background: #1895ff;
+            animation-delay: -6s;
+        }
+
+        .card {
+            width: min(100%, 680px);
+            padding: clamp(32px, 7vw, 64px);
+            text-align: center;
+            background: var(--surface);
+            border: 1px solid var(--surface-border);
+            border-radius: 28px;
+            box-shadow:
+                0 30px 90px var(--shadow),
+                inset 0 1px 0 rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(18px);
+            animation: reveal 0.8s cubic-bezier(.2, .8, .2, 1) both;
+        }
+
+        .icon-wrap {
+            display: grid;
+            place-items: center;
+            width: 78px;
+            height: 78px;
+            margin: 0 auto 28px;
+            color: var(--accent-light);
+            background: rgba(124, 92, 255, 0.12);
+            border: 1px solid rgba(169, 150, 255, 0.2);
+            border-radius: 24px;
+            box-shadow: 0 15px 40px rgba(124, 92, 255, 0.15);
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .icon-wrap svg {
+            width: 38px;
+            height: 38px;
+        }
+
+        .error-code {
+            margin-bottom: 14px;
+            font-size: clamp(4.5rem, 15vw, 8.5rem);
+            font-weight: 800;
+            line-height: 0.9;
+            letter-spacing: -0.08em;
+            background: linear-gradient(135deg, #ffffff 20%, var(--accent-light));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        h1 {
+            margin-bottom: 16px;
+            font-size: clamp(1.7rem, 5vw, 2.5rem);
+            letter-spacing: -0.04em;
+        }
+
+        .description {
+            max-width: 540px;
+            margin: 0 auto;
+            color: var(--muted);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .divider {
+            width: 100%;
+            height: 1px;
+            margin: 34px 0 28px;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(255, 255, 255, 0.12),
+                transparent
+            );
+        }
+
+        .redirect-info {
+            margin-bottom: 22px;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .countdown {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 30px;
+            height: 30px;
+            margin: 0 3px;
+            color: #fff;
+            font-weight: 700;
+            background: rgba(124, 92, 255, 0.2);
+            border: 1px solid rgba(169, 150, 255, 0.2);
+            border-radius: 9px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 15px 24px;
+            color: #fff;
+            font-weight: 650;
+            text-decoration: none;
+            background: linear-gradient(135deg, var(--accent), #6042d8);
+            border-radius: 14px;
+            box-shadow: 0 15px 35px rgba(124, 92, 255, 0.25);
+            transition:
+                transform 0.25s ease,
+                box-shadow 0.25s ease,
+                filter 0.25s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.08);
+            box-shadow: 0 20px 45px rgba(124, 92, 255, 0.35);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        .button svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        @keyframes reveal {
+            from {
+                opacity: 0;
+                transform: translateY(20px) scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        @keyframes drift {
+            from {
+                transform: translate(0, 0) scale(1);
+            }
+            to {
+                transform: translate(50px, 35px) scale(1.12);
+            }
+        }
+
+        @media (max-width: 520px) {
+            .page {
+                padding: 16px;
+            }
+
+            .card {
+                border-radius: 22px;
+            }
+
+            .icon-wrap {
+                width: 68px;
+                height: 68px;
+                border-radius: 20px;
+            }
+
+            .description {
+                font-size: 0.98rem;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="page">
+        <div class="orb one"></div>
+        <div class="orb two"></div>
+
+        <section class="card" aria-labelledby="error-title">
+            <div class="icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <path d="m20 20-3.5-3.5"></path>
+                    <path d="M8.5 8.5h5"></path>
+                    <path d="M8.5 13.5h3"></path>
+                </svg>
+            </div>
+
+            <div class="error-code">404</div>
+
+            <h1 id="error-title">Page not found</h1>
+
+            <p class="description">
+                The page you are looking for may have been moved, renamed,
+                or may no longer exist.
+            </p>
+
+            <div class="divider"></div>
+
+            <p class="redirect-info">
+                Returning you to the homepage in
+                <span class="countdown" id="countdown">8</span>
+                seconds.
+            </p>
+
+            <a href="/" class="button">
+                Back to homepage
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true">
+                    <path d="M5 12h14"></path>
+                    <path d="m13 6 6 6-6 6"></path>
+                </svg>
+            </a>
+        </section>
+    </main>
+
+    <script>
+        (() => {
+            const homepage = "/";
+            const countdownElement = document.getElementById("countdown");
+            let remaining = 8;
+
+            const timer = setInterval(() => {
+                remaining -= 1;
+                countdownElement.textContent = remaining;
+
+                if (remaining <= 0) {
+                    clearInterval(timer);
+                    window.location.href = homepage;
+                }
+            }, 1000);
+        })();
+    </script>
+</body>
+</html>

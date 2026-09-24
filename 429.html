@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>429 — Too Many Requests</title>
+
+    <style>
+        :root {
+            --bg: #0d0b08;
+            --surface: rgba(255,255,255,.055);
+            --border: rgba(255,255,255,.09);
+            --text: #fcfaf6;
+            --muted: #aaa397;
+            --accent: #f5a524;
+            --accent-light: #ffd68a;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            min-height: 100vh;
+            min-height: 100dvh;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            overflow: hidden;
+            color: var(--text);
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system,
+                BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background:
+                radial-gradient(circle at 15% 20%, rgba(245,165,36,.16), transparent 30rem),
+                radial-gradient(circle at 85% 80%, rgba(255,115,60,.08), transparent 28rem),
+                var(--bg);
+        }
+
+        .card {
+            width: min(100%, 690px);
+            padding: clamp(32px, 7vw, 64px);
+            text-align: center;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 30px;
+            box-shadow: 0 30px 100px rgba(0,0,0,.5);
+            backdrop-filter: blur(20px);
+            animation: reveal .8s cubic-bezier(.2,.8,.2,1) both;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 26px;
+            padding: 8px 14px;
+            color: var(--accent-light);
+            font-size: .78rem;
+            font-weight: 700;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            background: rgba(245,165,36,.1);
+            border: 1px solid rgba(255,214,138,.16);
+            border-radius: 999px;
+        }
+
+        .icon {
+            display: grid;
+            place-items: center;
+            width: 82px;
+            height: 82px;
+            margin: 0 auto 28px;
+            color: var(--accent-light);
+            background: rgba(245,165,36,.1);
+            border: 1px solid rgba(255,214,138,.18);
+            border-radius: 25px;
+            animation: warning 2.5s ease-in-out infinite;
+        }
+
+        .icon svg { width: 42px; height: 42px; }
+
+        .code {
+            margin-bottom: 14px;
+            font-size: clamp(4.5rem, 15vw, 8.5rem);
+            font-weight: 850;
+            line-height: .9;
+            letter-spacing: -.08em;
+            background: linear-gradient(135deg, #fff 15%, var(--accent-light));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        h1 {
+            margin-bottom: 16px;
+            font-size: clamp(1.7rem, 5vw, 2.5rem);
+            letter-spacing: -.04em;
+        }
+
+        p {
+            max-width: 550px;
+            margin: auto;
+            color: var(--muted);
+            line-height: 1.7;
+        }
+
+        .countdown-text { margin: 30px 0 22px; }
+
+        .countdown {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 32px;
+            height: 32px;
+            margin: 0 4px;
+            color: #fff;
+            font-weight: 700;
+            background: rgba(245,165,36,.12);
+            border: 1px solid rgba(255,214,138,.16);
+            border-radius: 9px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 25px;
+            color: #241600;
+            font-weight: 750;
+            text-decoration: none;
+            background: linear-gradient(135deg, var(--accent-light), var(--accent));
+            border-radius: 14px;
+            box-shadow: 0 16px 40px rgba(245,165,36,.18);
+            transition: .25s ease;
+        }
+
+        .button:hover { transform: translateY(-2px); filter: brightness(1.05); }
+        .button svg { width: 18px; height: 18px; }
+
+        @keyframes reveal {
+            from { opacity: 0; transform: translateY(20px) scale(.98); }
+            to { opacity: 1; transform: none; }
+        }
+
+        @keyframes warning {
+            0%,100% { transform: translateY(0); }
+            50% { transform: translateY(-6px); }
+        }
+
+        @media (max-width: 520px) {
+            body { padding: 16px; }
+            .card { border-radius: 24px; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * { animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="card">
+        <div class="badge">Rate limit reached</div>
+
+        <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 9v4"></path>
+                <path d="M12 17h.01"></path>
+                <path d="M10.3 3.9 2.8 17a2 2 0 0 0 1.7 3h15a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"></path>
+            </svg>
+        </div>
+
+        <div class="code">429</div>
+
+        <h1>Too many requests</h1>
+
+        <p>
+            You've sent too many requests in a short period of time.
+            Please wait a moment before trying again.
+        </p>
+
+        <p class="countdown-text">
+            Returning you to the homepage in
+            <span class="countdown" id="countdown">8</span>
+            seconds.
+        </p>
+
+        <a href="/" class="button">
+            Back to homepage
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m13 6 6 6-6 6"></path>
+            </svg>
+        </a>
+    </main>
+
+    <script>
+        (() => {
+            let remaining = 8;
+            const countdown = document.getElementById("countdown");
+
+            const timer = setInterval(() => {
+                remaining--;
+                countdown.textContent = remaining;
+
+                if (remaining <= 0) {
+                    clearInterval(timer);
+                    window.location.href = "/";
+                }
+            }, 1000);
+        })();
+    </script>
+</body>
+</html>
