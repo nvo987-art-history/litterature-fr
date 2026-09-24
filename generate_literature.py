@@ -77,7 +77,6 @@ def fetch_all_literature_qids():
 
     occupations = {
         "Q482980": "Auteurs",
-        "Q36180": "Auteurs",
         "Q49757": "Poètes",
         "Q6625963": "Romanciers",
         "Q214917": "Dramaturges",
