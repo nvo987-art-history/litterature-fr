@@ -1,0 +1,31 @@
+name: Weekly Literature Data Update
+
+on:
+  schedule:
+    - cron: '0 3 * * 0' # Minden vasárnap 03:00 UTC
+  workflow_dispatch: # Kézi indítás lehetőség GitHub UI-ról
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run generator script
+        run: python generate_literature.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add literature.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: weekly literature update" && git push)
