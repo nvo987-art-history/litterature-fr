@@ -1,0 +1,64 @@
+/* TEAM */
+
+Site / Project:
+NVO987 – Culture Visuelle Moderne et Contemporaine
+
+Project:
+Littérature française
+
+Website:
+https://litterature-fr.nvo987.eu/
+
+Main organization:
+https://nvo987.fr/
+
+Contact:
+contact@nvo987.eu
+
+
+/* SITE */
+
+Language:
+French (fr)
+
+Content:
+Cultural and documentary publication
+
+Data source:
+Wikidata
+
+Data license:
+CC0 1.0 Universal
+
+Hosting:
+GitHub Pages
+
+Analytics:
+None intentionally deployed
+
+Advertising:
+None intentionally deployed
+
+Cookies:
+No non-essential cookies intentionally deployed
+
+
+/* TECHNOLOGY */
+
+HTML5
+CSS3
+JavaScript
+JSON
+Wikidata
+
+
+/* SOCIAL */
+
+LinkedIn:
+https://www.linkedin.com/in/nvo987/
+
+Substack:
+https://nvo987.substack.com/
+
+Facebook:
+https://www.facebook.com/culturevisuelle/
