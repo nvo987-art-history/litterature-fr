@@ -1,0 +1,5 @@
+Contact: mailto:contact@nvo987.eu
+Policy: https://litterature-fr.nvo987.eu/security.txt
+Canonical: https://litterature-fr.nvo987.eu/security.txt
+Expires: 2027-09-25T00:00:00.000Z
+Preferred-Languages: fr, en
