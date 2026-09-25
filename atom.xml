@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Littérature française — NVO987</title>
+  <subtitle>Culture documentaire consacrée à la littérature française</subtitle>
+  <id>https://litterature-fr.nvo987.eu/</id>
+  <link href="https://litterature-fr.nvo987.eu/" rel="alternate" />
+  <link href="https://litterature-fr.nvo987.eu/atom.xml" rel="self" />
+  <updated>2026-09-25T00:00:00Z</updated>
+  <author>
+    <name>NVO987 – Culture Visuelle Moderne et Contemporaine</name>
+  </author>
+  <rights>© 2026 NVO987 – Culture Visuelle Moderne et Contemporaine</rights>
+
+  <entry>
+    <title>Littérature française</title>
+    <id>https://litterature-fr.nvo987.eu/</id>
+    <link href="https://litterature-fr.nvo987.eu/" />
+    <updated>2026-09-25T00:00:00Z</updated>
+    <summary>
+      Index documentaire consacré aux auteurs et aux personnalités de la
+      littérature française. Les données proviennent principalement de Wikidata.
+    </summary>
+  </entry>
+</feed>
