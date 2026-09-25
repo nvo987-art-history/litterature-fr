@@ -50,3 +50,14 @@ Le fichier utilisé par l'interface principale est :
 
 ```text
 literature.json
+{
+  "literature": [
+    {
+      "name": "Nom de la personne",
+      "categories": ["Auteurs"],
+      "wikidata": "https://www.wikidata.org/entity/Q...",
+      "wikipedia": "https://fr.wikipedia.org/wiki/...",
+      "website": "https://example.org/"
+    }
+  ]
+}
