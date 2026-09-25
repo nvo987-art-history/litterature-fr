@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Littérature française — NVO987</title>
+    <link>https://litterature-fr.nvo987.eu/</link>
+    <description>
+      Publication culturelle et documentaire consacrée à la littérature française.
+    </description>
+    <language>fr-FR</language>
+    <copyright>© 2026 NVO987 – Culture Visuelle Moderne et Contemporaine</copyright>
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Littérature française</title>
+      <link>https://litterature-fr.nvo987.eu/</link>
+      <guid isPermaLink="true">https://litterature-fr.nvo987.eu/</guid>
+      <description>
+        Index documentaire consacré aux auteurs et aux personnalités de la
+        littérature française. Les données proviennent principalement de Wikidata.
+      </description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
