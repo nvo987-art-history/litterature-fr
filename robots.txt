@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://litterature-fr.nvo987.eu/sitemap.xml 
