@@ -1,6 +1,6 @@
 {
   "source": "Wikidata (CC0)",
-  "count": 17408,
+  "count": 17412,
   "literature": [
     {
       "name": "A. Augustin-Thierry",
@@ -1804,6 +1804,16 @@
         "Dramaturges"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q29877480",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Adrien Dézamy",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q140616130",
       "wikipedia": "",
       "website": ""
     },
@@ -10032,6 +10042,16 @@
       "website": ""
     },
     {
+      "name": "Amélie Morin",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q2844764",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Am%C3%A9lie_Morin",
+      "website": ""
+    },
+    {
       "name": "Amélie Murat",
       "categories": [
         "Auteurs",
@@ -13710,7 +13730,7 @@
       "website": ""
     },
     {
-      "name": "Ann O'Aro",
+      "name": "Ann O'aro",
       "categories": [
         "Auteurs",
         "Poètes"
@@ -19017,16 +19037,6 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q586395",
       "wikipedia": "https://fr.wikipedia.org/wiki/Arnaud_de_Salette",
-      "website": ""
-    },
-    {
-      "name": "Arnaud Denis",
-      "categories": [
-        "Auteurs",
-        "Dramaturges"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q2863095",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Arnaud_Denis",
       "website": ""
     },
     {
@@ -26033,6 +26043,15 @@
       "wikidata": "https://www.wikidata.org/wiki/Q59095295",
       "wikipedia": "https://fr.wikipedia.org/wiki/Camille_Lecrique",
       "website": ""
+    },
+    {
+      "name": "Camille Louzon",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q133598411",
+      "wikipedia": "",
+      "website": "https://camillelouzon.com/"
     },
     {
       "name": "Camille Macaigne",
@@ -58573,6 +58592,16 @@
       "website": ""
     },
     {
+      "name": "Féréol",
+      "categories": [
+        "Auteurs",
+        "Dramaturges"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q95245522",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "G. Jean-Aubry",
       "categories": [
         "Auteurs",
@@ -67118,7 +67147,7 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q111578546",
+      "wikidata": "https://www.wikidata.org/wiki/Q81893154",
       "wikipedia": "",
       "website": ""
     },
@@ -67128,7 +67157,7 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q81893154",
+      "wikidata": "https://www.wikidata.org/wiki/Q111578546",
       "wikipedia": "",
       "website": ""
     },
@@ -71278,6 +71307,15 @@
       "website": ""
     },
     {
+      "name": "Henri Maitre",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q3131623",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Henri_Maitre",
+      "website": ""
+    },
+    {
       "name": "Henri Malteste",
       "categories": [
         "Auteurs",
@@ -71355,15 +71393,6 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3131619",
       "wikipedia": "https://fr.wikipedia.org/wiki/Henri_Mazel",
-      "website": ""
-    },
-    {
-      "name": "Henri Maître",
-      "categories": [
-        "Auteurs"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q3131623",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Henri_Maitre",
       "website": ""
     },
     {
@@ -77406,6 +77435,16 @@
       "website": ""
     },
     {
+      "name": "Jacky Goupil",
+      "categories": [
+        "Auteurs",
+        "Dramaturges"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q92278429",
+      "wikipedia": "",
+      "website": "https://jackygoupil.wixsite.com/jackygoupil"
+    },
+    {
       "name": "Jacky Joubert",
       "categories": [
         "Auteurs",
@@ -79439,8 +79478,8 @@
         "Auteurs",
         "Poètes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q2906385",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Bleiz_Lannvau",
+      "wikidata": "https://www.wikidata.org/wiki/Q3159312",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Jacques_Le_Mar%C3%A9chal",
       "website": ""
     },
     {
@@ -79449,8 +79488,8 @@
         "Auteurs",
         "Poètes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q3159312",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Jacques_Le_Mar%C3%A9chal",
+      "wikidata": "https://www.wikidata.org/wiki/Q2906385",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Bleiz_Lannvau",
       "website": ""
     },
     {
@@ -119048,7 +119087,7 @@
         "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q20015561",
-      "wikipedia": "",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Marie_Laffranque",
       "website": ""
     },
     {
@@ -157339,7 +157378,7 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q113154503",
+      "wikidata": "https://www.wikidata.org/wiki/Q112624851",
       "wikipedia": "",
       "website": ""
     },
@@ -157349,7 +157388,7 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q112624851",
+      "wikidata": "https://www.wikidata.org/wiki/Q113154503",
       "wikipedia": "",
       "website": ""
     },
