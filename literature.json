@@ -1,6 +1,6 @@
 {
   "source": "Wikidata (CC0)",
-  "count": 17412,
+  "count": 17423,
   "literature": [
     {
       "name": "A. Augustin-Thierry",
@@ -17183,7 +17183,7 @@
         "Poètes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q106556295",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Antoine_Roux_%28auteur_occitan%29",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Antoine_Roux_%28%C3%A9crivain%29",
       "website": ""
     },
     {
@@ -18194,6 +18194,15 @@
         "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q116869195",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Arianne Galfre",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141594713",
       "wikipedia": "",
       "website": ""
     },
@@ -20213,6 +20222,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q2871478",
       "wikipedia": "https://fr.wikipedia.org/wiki/Auguste_de_Juge",
+      "website": ""
+    },
+    {
+      "name": "Auguste de Labouïsse-Rochefort",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q3168910",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Auguste_de_Labou%C3%AFsse-Rochefort",
       "website": ""
     },
     {
@@ -29987,6 +30006,16 @@
       "website": ""
     },
     {
+      "name": "Charles Le Bargy",
+      "categories": [
+        "Auteurs",
+        "Dramaturges"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q2297234",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Charles_Le_Bargy",
+      "website": ""
+    },
+    {
       "name": "Charles Le Boulanger",
       "categories": [
         "Auteurs",
@@ -37874,8 +37903,8 @@
         "Auteurs",
         "Essayistes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q111080717",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Constance_Vilanova",
+      "wikidata": "https://www.wikidata.org/wiki/Q135979999",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -37884,8 +37913,8 @@
         "Auteurs",
         "Essayistes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q135979999",
-      "wikipedia": "",
+      "wikidata": "https://www.wikidata.org/wiki/Q111080717",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Constance_Vilanova",
       "website": ""
     },
     {
@@ -60054,7 +60083,7 @@
         "Dramaturges"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q112670822",
-      "wikipedia": "",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Gaston_Lesaulx",
       "website": ""
     },
     {
@@ -66447,15 +66476,6 @@
       "website": ""
     },
     {
-      "name": "Guillaume V d'Aquitaine",
-      "categories": [
-        "Auteurs"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q382339",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Guillaume_V_d%27Aquitaine",
-      "website": ""
-    },
-    {
       "name": "Guillaume Villeneuve",
       "categories": [
         "Auteurs",
@@ -67147,7 +67167,7 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q81893154",
+      "wikidata": "https://www.wikidata.org/wiki/Q111578546",
       "wikipedia": "",
       "website": ""
     },
@@ -67157,7 +67177,7 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q111578546",
+      "wikidata": "https://www.wikidata.org/wiki/Q81893154",
       "wikipedia": "",
       "website": ""
     },
@@ -73621,6 +73641,15 @@
         "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q22696565",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Hervé Kerros",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141636189",
       "wikipedia": "",
       "website": ""
     },
@@ -95301,16 +95330,6 @@
       "website": ""
     },
     {
-      "name": "Jean-Pierre-Jacques-Auguste de Labouïsse-Rochefort",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q3168910",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Auguste_de_Labou%C3%AFsse-Rochefort",
-      "website": ""
-    },
-    {
       "name": "Jean-Pol Fargeau",
       "categories": [
         "Auteurs",
@@ -101899,6 +101918,16 @@
       "website": "http://kristeva.fr"
     },
     {
+      "name": "Julia Malye",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q126372769",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Julia_Malye",
+      "website": ""
+    },
+    {
       "name": "Julia Paris",
       "categories": [
         "Auteurs"
@@ -103443,6 +103472,15 @@
       "website": ""
     },
     {
+      "name": "Jérômine Derigny",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q99483809",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Jòrgi Reboul",
       "categories": [
         "Auteurs",
@@ -104867,6 +104905,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q1238574",
       "wikipedia": "https://fr.wikipedia.org/wiki/Laurence_Coss%C3%A9",
+      "website": ""
+    },
+    {
+      "name": "Laurence Crouzet",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q3218878",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Laurence_Crouzet",
       "website": ""
     },
     {
@@ -107412,8 +107460,8 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q124936737",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Louis_d%27Anthoine",
+      "wikidata": "https://www.wikidata.org/wiki/Q133878846",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -107422,8 +107470,8 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q133878846",
-      "wikipedia": "",
+      "wikidata": "https://www.wikidata.org/wiki/Q124936737",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Louis_d%27Anthoine",
       "website": ""
     },
     {
@@ -110655,6 +110703,16 @@
       "website": ""
     },
     {
+      "name": "Louise Menon",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141568818",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Louise Michel",
       "categories": [
         "Auteurs",
@@ -111661,7 +111719,7 @@
         "Romanciers"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q12949553",
-      "wikipedia": "",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Lucien_Duc",
       "website": ""
     },
     {
@@ -117666,16 +117724,6 @@
       "website": ""
     },
     {
-      "name": "Marcelle Chasteau-Tinayre",
-      "categories": [
-        "Auteurs",
-        "Romanciers"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q3289600",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Marcelle_Tinayre",
-      "website": ""
-    },
-    {
       "name": "Marcelle Delpastre",
       "categories": [
         "Auteurs",
@@ -117733,6 +117781,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q115544043",
       "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Marcelle Tinayre",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q3289600",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Marcelle_Tinayre",
       "website": ""
     },
     {
@@ -120004,6 +120062,16 @@
       "website": ""
     },
     {
+      "name": "Marie-Claude Aristégui",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141611689",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Marie-Claude Bérot",
       "categories": [
         "Auteurs",
@@ -121477,6 +121545,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q1393855",
       "wikipedia": "https://fr.wikipedia.org/wiki/Marius_Girard",
+      "website": ""
+    },
+    {
+      "name": "Marius Grout",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q1225351",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Marius_Grout",
       "website": ""
     },
     {
@@ -124684,6 +124762,7 @@
       "name": "Maurice Rémon",
       "categories": [
         "Auteurs",
+        "Romanciers",
         "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q18197826",
@@ -133544,6 +133623,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q4456790",
       "wikipedia": "https://fr.wikipedia.org/wiki/Nivaria_Tejera",
+      "website": ""
+    },
+    {
+      "name": "Noam Sinseau",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141604203",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Noam_Sinseau",
       "website": ""
     },
     {
@@ -152030,15 +152119,6 @@
       "website": ""
     },
     {
-      "name": "René Laloux",
-      "categories": [
-        "Auteurs"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q958483",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Ren%C3%A9_Laloux",
-      "website": ""
-    },
-    {
       "name": "René Laporte",
       "categories": [
         "Auteurs",
@@ -160792,6 +160872,16 @@
       "website": ""
     },
     {
+      "name": "Stéphane Azihari",
+      "categories": [
+        "Auteurs",
+        "Essayistes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q60094760",
+      "wikipedia": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Azihari",
+      "website": ""
+    },
+    {
       "name": "Stéphane Batigne",
       "categories": [
         "Auteurs",
@@ -162774,6 +162864,16 @@
       "website": ""
     },
     {
+      "name": "Sébastien Vannerot",
+      "categories": [
+        "Auteurs",
+        "Essayistes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141604356",
+      "wikipedia": "",
+      "website": "https://paradoxale-larevue.fr/direction-publication"
+    },
+    {
       "name": "Sébastien Vidal",
       "categories": [
         "Auteurs",
@@ -163044,6 +163144,17 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3515000",
       "wikipedia": "https://fr.wikipedia.org/wiki/Tancr%C3%A8de_Vallerey",
+      "website": ""
+    },
+    {
+      "name": "Tanella Boni",
+      "categories": [
+        "Auteurs",
+        "Poètes",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q637396",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Tanella_Boni",
       "website": ""
     },
     {
@@ -163825,6 +163936,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3524511",
       "wikipedia": "https://fr.wikipedia.org/wiki/Thierry_Sandre",
+      "website": ""
+    },
+    {
+      "name": "Thierry Simon",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141626832",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -170917,16 +171038,6 @@
       "wikidata": "https://www.wikidata.org/wiki/Q111370585",
       "wikipedia": "",
       "website": ""
-    },
-    {
-      "name": "Zurab Artsuev",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q141458277",
-      "wikipedia": "",
-      "website": "https://zurabartsuev.com"
     },
     {
       "name": "Zélie Guével",
