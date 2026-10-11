@@ -1,6 +1,6 @@
 {
   "source": "Wikidata (CC0)",
-  "count": 17423,
+  "count": 17440,
   "literature": [
     {
       "name": "A. Augustin-Thierry",
@@ -2258,7 +2258,7 @@
         "Dramaturges"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q108664365",
-      "wikipedia": "",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Ad%C3%A8le_Regnauld_de_Pr%C3%A9bois",
       "website": ""
     },
     {
@@ -4738,21 +4738,21 @@
       "name": "Albert Fleury",
       "categories": [
         "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q47420434",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Albert_Fleury",
+      "website": ""
+    },
+    {
+      "name": "Albert Fleury (1875-1911)",
+      "categories": [
+        "Auteurs",
         "Essayistes",
         "Poètes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q16938328",
       "wikipedia": "",
-      "website": ""
-    },
-    {
-      "name": "Albert Fleury",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q47420434",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Albert_Fleury",
       "website": ""
     },
     {
@@ -8789,6 +8789,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q2838755",
       "wikipedia": "https://fr.wikipedia.org/wiki/Allyre_Bureau",
+      "website": ""
+    },
+    {
+      "name": "Alma Brami",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q2839054",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Alma_Brami",
       "website": ""
     },
     {
@@ -13574,8 +13584,7 @@
       "name": "Angèle Kremer-Marietti",
       "categories": [
         "Auteurs",
-        "Poètes",
-        "Traducteurs"
+        "Poètes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q2849841",
       "wikipedia": "https://fr.wikipedia.org/wiki/Ang%C3%A8le_Kremer-Marietti",
@@ -15484,7 +15493,8 @@
       "name": "Anne-Sylvie Salzman",
       "categories": [
         "Auteurs",
-        "Romanciers"
+        "Romanciers",
+        "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q27758666",
       "wikipedia": "https://fr.wikipedia.org/wiki/Anne-Sylvie_Salzman",
@@ -15899,6 +15909,16 @@
       "website": ""
     },
     {
+      "name": "Anouk Neuhoff",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141684869",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Anselle",
       "categories": [
         "Auteurs",
@@ -15934,16 +15954,6 @@
         "Auteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q102045893",
-      "wikipedia": "",
-      "website": ""
-    },
-    {
-      "name": "Anthony Nigro",
-      "categories": [
-        "Auteurs",
-        "Romanciers"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q141544569",
       "wikipedia": "",
       "website": ""
     },
@@ -19486,6 +19496,16 @@
         "Poètes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q112264351",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Arthur Hubschmid",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q139176323",
       "wikipedia": "",
       "website": ""
     },
@@ -27465,7 +27485,7 @@
         "Romanciers"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q75360656",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Catherine_Schneider_%28actrice%29",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -37903,8 +37923,8 @@
         "Auteurs",
         "Essayistes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q135979999",
-      "wikipedia": "",
+      "wikidata": "https://www.wikidata.org/wiki/Q111080717",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Constance_Vilanova",
       "website": ""
     },
     {
@@ -37913,8 +37933,8 @@
         "Auteurs",
         "Essayistes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q111080717",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Constance_Vilanova",
+      "wikidata": "https://www.wikidata.org/wiki/Q135979999",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -43134,6 +43154,16 @@
       "website": ""
     },
     {
+      "name": "Dominique Peters",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141663616",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Dominique Poggi",
       "categories": [
         "Auteurs"
@@ -43795,6 +43825,16 @@
         "Dramaturges"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q111582416",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "E. Esparcel",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141640901",
       "wikipedia": "",
       "website": ""
     },
@@ -45189,6 +45229,15 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3051725",
       "wikipedia": "https://fr.wikipedia.org/wiki/Elsa_Koeberl%C3%A9",
+      "website": ""
+    },
+    {
+      "name": "Elsa Launay",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141640819",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -58268,6 +58317,16 @@
       "website": ""
     },
     {
+      "name": "Félix de La Salle de Rochemaure",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q20046290",
+      "wikipedia": "https://fr.wikipedia.org/wiki/F%C3%A9lix_de_La_Salle_de_Rochemaure",
+      "website": ""
+    },
+    {
       "name": "Félix de Lange",
       "categories": [
         "Auteurs",
@@ -61906,6 +61965,16 @@
         "Poètes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q50323441",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Georges Delbruck",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141679393",
       "wikipedia": "",
       "website": ""
     },
@@ -67099,6 +67168,16 @@
       "website": ""
     },
     {
+      "name": "Gustave Podevin",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141667955",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Gustave Pradelle",
       "categories": [
         "Auteurs",
@@ -67167,7 +67246,7 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q111578546",
+      "wikidata": "https://www.wikidata.org/wiki/Q81893154",
       "wikipedia": "",
       "website": ""
     },
@@ -67177,7 +67256,7 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q81893154",
+      "wikidata": "https://www.wikidata.org/wiki/Q111578546",
       "wikipedia": "",
       "website": ""
     },
@@ -67818,6 +67897,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q56073041",
       "wikipedia": "https://fr.wikipedia.org/wiki/Guy_Vassal_%28dramaturge%29",
+      "website": ""
+    },
+    {
+      "name": "Guy Verdot",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q137576863",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -76304,6 +76393,16 @@
       "website": ""
     },
     {
+      "name": "Irène Gayraud",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q122675022",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Irène Giron",
       "categories": [
         "Auteurs",
@@ -79507,8 +79606,8 @@
         "Auteurs",
         "Poètes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q3159312",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Jacques_Le_Mar%C3%A9chal",
+      "wikidata": "https://www.wikidata.org/wiki/Q2906385",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Bleiz_Lannvau",
       "website": ""
     },
     {
@@ -79517,8 +79616,8 @@
         "Auteurs",
         "Poètes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q2906385",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Bleiz_Lannvau",
+      "wikidata": "https://www.wikidata.org/wiki/Q3159312",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Jacques_Le_Mar%C3%A9chal",
       "website": ""
     },
     {
@@ -82928,6 +83027,16 @@
       "website": ""
     },
     {
+      "name": "Jean Cathelin",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141600739",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Jean Cau",
       "categories": [
         "Auteurs",
@@ -83230,16 +83339,6 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3171441",
       "wikipedia": "https://fr.wikipedia.org/wiki/Jean_Cotton",
-      "website": ""
-    },
-    {
-      "name": "Jean Creton",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q16645446",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Jean_Creton",
       "website": ""
     },
     {
@@ -87797,7 +87896,7 @@
       "website": ""
     },
     {
-      "name": "Jean-Antoine du Cerceau",
+      "name": "Jean-Antoine Du Cerceau",
       "categories": [
         "Auteurs",
         "Dramaturges",
@@ -97526,6 +97625,16 @@
       "website": ""
     },
     {
+      "name": "Jonas Tophoven",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q122819103",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Jonathan Fruoco",
       "categories": [
         "Auteurs",
@@ -107230,6 +107339,15 @@
       "website": ""
     },
     {
+      "name": "Louis Breton",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q135113993",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Louis Bénech",
       "categories": [
         "Auteurs",
@@ -109970,6 +110088,16 @@
       "website": ""
     },
     {
+      "name": "Louis-François Guérin",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q110215305",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Louis-François Jauffret",
       "categories": [
         "Auteurs",
@@ -110008,16 +110136,6 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3260508",
       "wikipedia": "https://fr.wikipedia.org/wiki/Louis-Fran%C3%A7ois_Ribi%C3%A9",
-      "website": ""
-    },
-    {
-      "name": "Louis-Félix de La Salle de Rochemaure",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q20046290",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Louis-F%C3%A9lix_de_La_Salle_de_Rochemaure",
       "website": ""
     },
     {
@@ -118424,6 +118542,16 @@
       "website": ""
     },
     {
+      "name": "Marianne Chaillan",
+      "categories": [
+        "Auteurs",
+        "Essayistes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q24951190",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Marianne_Chaillan",
+      "website": ""
+    },
+    {
       "name": "Marianne Comolli",
       "categories": [
         "Auteurs"
@@ -124034,6 +124162,16 @@
       "website": ""
     },
     {
+      "name": "Maurice Faure",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q3300286",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Maurice_Faure_%281850-1919%29",
+      "website": ""
+    },
+    {
       "name": "Maurice Fombeure",
       "categories": [
         "Auteurs",
@@ -125003,16 +125141,6 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q85183891",
       "wikipedia": "",
-      "website": ""
-    },
-    {
-      "name": "Maurice-Louis Faure",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q3300286",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Maurice-Louis_Faure",
       "website": ""
     },
     {
@@ -129027,6 +129155,17 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3311682",
       "wikipedia": "https://fr.wikipedia.org/wiki/Mich%C3%A8le_Ressi",
+      "website": ""
+    },
+    {
+      "name": "Michèle Robin-Clerc",
+      "categories": [
+        "Auteurs",
+        "Poètes",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q139101821",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -140831,6 +140970,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q18533700",
       "wikipedia": "https://fr.wikipedia.org/wiki/Pauline_Caro",
+      "website": ""
+    },
+    {
+      "name": "Pauline Chanu",
+      "categories": [
+        "Auteurs",
+        "Essayistes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141678451",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Pauline_Chanu",
       "website": ""
     },
     {
@@ -157188,6 +157337,15 @@
       "website": ""
     },
     {
+      "name": "Sabine Duhamel",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141671523",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Sabine Huynh",
       "categories": [
         "Auteurs",
@@ -161793,16 +161951,6 @@
         "Poètes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q50386129",
-      "wikipedia": "",
-      "website": ""
-    },
-    {
-      "name": "Suzanne Martin",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q137577715",
       "wikipedia": "",
       "website": ""
     },
@@ -167794,6 +167942,16 @@
       "website": ""
     },
     {
+      "name": "Virginie Bouyx",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q137271860",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Virginie Cadot",
       "categories": [
         "Auteurs",
@@ -172754,6 +172912,15 @@
       "website": ""
     },
     {
+      "name": "Élise Blanchard",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q133009472",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Élise Fischer",
       "categories": [
         "Auteurs",
@@ -174087,7 +174254,7 @@
         "Poètes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q1337206",
-      "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89mile_Ripert_%28f%C3%A9libre%29",
+      "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89mile_Ripert",
       "website": ""
     },
     {
