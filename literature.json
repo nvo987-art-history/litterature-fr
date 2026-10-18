@@ -1,6 +1,6 @@
 {
   "source": "Wikidata (CC0)",
-  "count": 17440,
+  "count": 17458,
   "literature": [
     {
       "name": "A. Augustin-Thierry",
@@ -3042,6 +3042,16 @@
       "website": ""
     },
     {
+      "name": "Alain Boureau",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q2829610",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Alain_Boureau",
+      "website": ""
+    },
+    {
       "name": "Alain Bournazel",
       "categories": [
         "Auteurs",
@@ -3419,6 +3429,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q124846562",
       "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Alain Guillermou",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q2829893",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Alain_Guillermou",
       "website": ""
     },
     {
@@ -6386,7 +6406,7 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q2833697",
       "wikipedia": "https://fr.wikipedia.org/wiki/Alexandre_Gefen",
-      "website": ""
+      "website": "https://gefen.fabula.org/"
     },
     {
       "name": "Alexandre Guinzbourg",
@@ -6795,6 +6815,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q2391090",
       "wikipedia": "https://fr.wikipedia.org/wiki/Alexandre_Schanne",
+      "website": ""
+    },
+    {
+      "name": "Alexandre Siniakov",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q4060882",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -17485,6 +17515,16 @@
       "website": ""
     },
     {
+      "name": "Antoine-Jérôme Desgranges",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141760415",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Antoine-J%C3%A9r%C3%B4me_Desgranges",
+      "website": ""
+    },
+    {
       "name": "Antoine-Louis de Chalamont de La Visclède",
       "categories": [
         "Auteurs",
@@ -22170,6 +22210,16 @@
       "website": ""
     },
     {
+      "name": "Basile Mulciba",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q140053511",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Bathild Bouniol",
       "categories": [
         "Auteurs",
@@ -25732,8 +25782,8 @@
       "name": "Bérengère Cournut",
       "categories": [
         "Auteurs",
-        "Romanciers",
-        "Traducteurs"
+        "Poètes",
+        "Romanciers"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q67089108",
       "wikipedia": "https://fr.wikipedia.org/wiki/B%C3%A9reng%C3%A8re_Cournut",
@@ -27746,6 +27796,16 @@
       "website": ""
     },
     {
+      "name": "Chantal Delsol",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q517390",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Chantal_Delsol",
+      "website": ""
+    },
+    {
       "name": "Chantal Detcherry",
       "categories": [
         "Auteurs",
@@ -27945,16 +28005,6 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q107086393",
       "wikipedia": "",
-      "website": ""
-    },
-    {
-      "name": "Charles Auguste de La Fare",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q1063609",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Charles-Auguste_de_La_Fare",
       "website": ""
     },
     {
@@ -31365,6 +31415,16 @@
       "website": ""
     },
     {
+      "name": "Charles-Auguste de La Fare",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q1063609",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Charles-Auguste_de_La_Fare",
+      "website": ""
+    },
+    {
       "name": "Charles-Augustin Sainte-Beuve",
       "categories": [
         "Auteurs",
@@ -32133,6 +32193,15 @@
       "wikidata": "https://www.wikidata.org/wiki/Q2961061",
       "wikipedia": "https://fr.wikipedia.org/wiki/Charloun_Rieu",
       "website": ""
+    },
+    {
+      "name": "Charly Aourir",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141735483",
+      "wikipedia": "",
+      "website": "https://www.charlyaourir.com"
     },
     {
       "name": "Charlélie Couture",
@@ -37923,8 +37992,8 @@
         "Auteurs",
         "Essayistes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q111080717",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Constance_Vilanova",
+      "wikidata": "https://www.wikidata.org/wiki/Q135979999",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -37933,8 +38002,8 @@
         "Auteurs",
         "Essayistes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q135979999",
-      "wikipedia": "",
+      "wikidata": "https://www.wikidata.org/wiki/Q111080717",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Constance_Vilanova",
       "website": ""
     },
     {
@@ -39389,6 +39458,16 @@
       "wikidata": "https://www.wikidata.org/wiki/Q3012812",
       "wikipedia": "https://fr.wikipedia.org/wiki/Damien_Luce",
       "website": "http://www.damienluce.com"
+    },
+    {
+      "name": "Damien Ribeiro",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q137593925",
+      "wikipedia": "",
+      "website": ""
     },
     {
       "name": "Damien Roux",
@@ -45490,7 +45569,7 @@
         "Poètes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q115208664",
-      "wikipedia": "",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Emma_Marsantes",
       "website": ""
     },
     {
@@ -49232,6 +49311,15 @@
       "website": ""
     },
     {
+      "name": "Eva Bottega",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141274695",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Eva David",
       "categories": [
         "Auteurs",
@@ -52539,7 +52627,8 @@
       "name": "Franck André Jamme",
       "categories": [
         "Auteurs",
-        "Poètes"
+        "Poètes",
+        "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3082048",
       "wikipedia": "https://fr.wikipedia.org/wiki/Franck_Andr%C3%A9_Jamme",
@@ -63271,6 +63360,16 @@
       "website": ""
     },
     {
+      "name": "Georges Saint-Clair",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q3103452",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Georges_Saint-Clair",
+      "website": ""
+    },
+    {
       "name": "Georges Saint-Yves Corrard",
       "categories": [
         "Auteurs",
@@ -73714,6 +73813,15 @@
       "website": ""
     },
     {
+      "name": "Hervé J.A. Fleury",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q115542320",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Hervé Juvin",
       "categories": [
         "Auteurs",
@@ -74399,7 +74507,8 @@
       "name": "Hippolyte-Jules Demolière",
       "categories": [
         "Auteurs",
-        "Dramaturges"
+        "Dramaturges",
+        "Romanciers"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3135999",
       "wikipedia": "https://fr.wikipedia.org/wiki/Hippolyte-Jules_Demoli%C3%A8re",
@@ -82943,6 +83052,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3171138",
       "wikipedia": "https://fr.wikipedia.org/wiki/Jean_Carr%C3%A8re_%28%C3%A9crivain%29",
+      "website": ""
+    },
+    {
+      "name": "Jean Carrère",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q136523281",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -99833,16 +99952,6 @@
       "website": ""
     },
     {
-      "name": "Joël Goffin",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q112383563",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Jo%C3%ABl_Goffin",
-      "website": ""
-    },
-    {
       "name": "Joël Guenoun",
       "categories": [
         "Auteurs"
@@ -102161,6 +102270,16 @@
         "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q18115130",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Julie Héraclès",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q136304983",
       "wikipedia": "",
       "website": ""
     },
@@ -105037,6 +105156,16 @@
       "website": ""
     },
     {
+      "name": "Laurence de Charette",
+      "categories": [
+        "Auteurs",
+        "Essayistes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q90907569",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Laurence_de_Charette",
+      "website": ""
+    },
+    {
       "name": "Laurence De Cock",
       "categories": [
         "Auteurs",
@@ -107578,8 +107707,8 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q133878846",
-      "wikipedia": "",
+      "wikidata": "https://www.wikidata.org/wiki/Q124936737",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Louis_d%27Anthoine",
       "website": ""
     },
     {
@@ -107588,8 +107717,8 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q124936737",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Louis_d%27Anthoine",
+      "wikidata": "https://www.wikidata.org/wiki/Q133878846",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -110922,7 +111051,7 @@
       "website": ""
     },
     {
-      "name": "Louise-Anastasia Serment",
+      "name": "Louise-Anastasie Serment",
       "categories": [
         "Auteurs",
         "Poètes"
@@ -111409,6 +111538,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q121674021",
       "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Lucie Cousturier",
+      "categories": [
+        "Auteurs",
+        "Essayistes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q2381804",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Lucie_Cousturier",
       "website": ""
     },
     {
@@ -115756,6 +115895,15 @@
       "website": ""
     },
     {
+      "name": "Manon Dessources",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141751860",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Manon Fargetton",
       "categories": [
         "Auteurs",
@@ -116005,7 +116153,8 @@
       "name": "Marc Baron",
       "categories": [
         "Auteurs",
-        "Poètes"
+        "Poètes",
+        "Romanciers"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3287789",
       "wikipedia": "https://fr.wikipedia.org/wiki/Marc_Baron",
@@ -118447,7 +118596,7 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q141462284",
       "wikipedia": "",
-      "website": "https://inthegardenwithmaria.fr"
+      "website": "https://mariapaillard.com/"
     },
     {
       "name": "Maria Poiré",
@@ -130589,6 +130738,15 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q25892138",
       "wikipedia": "https://fr.wikipedia.org/wiki/Myriam_Chirousse",
+      "website": ""
+    },
+    {
+      "name": "Myriam Ertz",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q91224884",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -143796,6 +143954,16 @@
       "wikidata": "https://www.wikidata.org/wiki/Q3383955",
       "wikipedia": "https://fr.wikipedia.org/wiki/Pierre_Berton_%28dramaturge%29",
       "website": ""
+    },
+    {
+      "name": "Pierre Berville",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q63183711",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Pierre_Berville",
+      "website": "https://leslivresdeberville.com"
     },
     {
       "name": "Pierre Beuf",
@@ -159344,6 +159512,16 @@
       "website": ""
     },
     {
+      "name": "Siglinde Summerer",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q65774842",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Sika Fakambi",
       "categories": [
         "Auteurs",
@@ -159392,16 +159570,6 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3484051",
       "wikipedia": "https://fr.wikipedia.org/wiki/Silvia_Monfort",
-      "website": ""
-    },
-    {
-      "name": "Silène Edgar",
-      "categories": [
-        "Auteurs",
-        "Romanciers"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q111862426",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Sil%C3%A8ne_Edgar",
       "website": ""
     },
     {
@@ -161216,6 +161384,17 @@
       "wikidata": "https://www.wikidata.org/wiki/Q27758623",
       "wikipedia": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Lavignotte",
       "website": ""
+    },
+    {
+      "name": "Stéphane Ledien",
+      "categories": [
+        "Auteurs",
+        "Nouvellistes",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q126715766",
+      "wikipedia": "",
+      "website": "https://www.stephaneledien.com"
     },
     {
       "name": "Stéphane Linou",
@@ -164258,7 +164437,7 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q111154577",
       "wikipedia": "",
-      "website": "https://www.thomasnaszalyi.fr/"
+      "website": "https://www.thomasnaszalyi.com/"
     },
     {
       "name": "Thomas Quillardet",
@@ -171492,6 +171671,16 @@
       "website": ""
     },
     {
+      "name": "Édouard Brisebarre",
+      "categories": [
+        "Auteurs",
+        "Dramaturges"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q1287510",
+      "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89douard_Brisebarre",
+      "website": ""
+    },
+    {
       "name": "Édouard Burdel",
       "categories": [
         "Auteurs",
@@ -172364,16 +172553,6 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3579699",
       "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89douard-Fran%C3%A7ois-Marie_Bosquillon",
-      "website": ""
-    },
-    {
-      "name": "Édouard-Louis-Alexandre Brisebarre",
-      "categories": [
-        "Auteurs",
-        "Dramaturges"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q1287510",
-      "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89douard_Brisebarre",
       "website": ""
     },
     {
@@ -173818,7 +173997,8 @@
       "name": "Émile Guillaumin",
       "categories": [
         "Auteurs",
-        "Poètes"
+        "Poètes",
+        "Romanciers"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3588553",
       "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89mile_Guillaumin",
