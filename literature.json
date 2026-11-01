@@ -1,6 +1,6 @@
 {
   "source": "Wikidata (CC0)",
-  "count": 17478,
+  "count": 17502,
   "literature": [
     {
       "name": "A. Augustin-Thierry",
@@ -165,6 +165,16 @@
         "Dramaturges"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q110227094",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "A.-M. Cerisier",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q23902601",
       "wikipedia": "",
       "website": ""
     },
@@ -3912,6 +3922,16 @@
       "website": ""
     },
     {
+      "name": "Alain Pons",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q111411488",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Alain_Pons",
+      "website": ""
+    },
+    {
       "name": "Alain Pottier",
       "categories": [
         "Auteurs",
@@ -4378,6 +4398,15 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q15630957",
       "wikipedia": "https://fr.wikipedia.org/wiki/Albert_Ad%C3%A8s",
+      "website": ""
+    },
+    {
+      "name": "Albert Aftalion",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q1345673",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Albert_Aftalion",
       "website": ""
     },
     {
@@ -9239,16 +9268,6 @@
       "website": ""
     },
     {
-      "name": "Alphonse Rabbe",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q948722",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Alphonse_Rabbe",
-      "website": ""
-    },
-    {
       "name": "Alphonse Rebière",
       "categories": [
         "Auteurs",
@@ -10751,6 +10770,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q107089506",
       "wikipedia": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Bernis",
+      "website": ""
+    },
+    {
+      "name": "André Bernold",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q41672864",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Bernold",
       "website": ""
     },
     {
@@ -14016,6 +14045,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q2850962",
       "wikipedia": "https://fr.wikipedia.org/wiki/Anne_Artigau",
+      "website": ""
+    },
+    {
+      "name": "Anne Bautier",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q124639620",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -20834,6 +20873,16 @@
       "website": ""
     },
     {
+      "name": "Auguste Morel",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141891717",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Auguste Nefftzer",
       "categories": [
         "Auteurs",
@@ -21328,6 +21377,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q2871612",
       "wikipedia": "https://fr.wikipedia.org/wiki/Augustin_Louis_de_Xim%C3%A9n%C3%A8s",
+      "website": ""
+    },
+    {
+      "name": "Augustin Mariaux",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q16916467",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Augustin_Mariaux",
       "website": ""
     },
     {
@@ -34578,6 +34637,16 @@
       "website": ""
     },
     {
+      "name": "Claire Durivaux",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141936366",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Claire Etcherelli",
       "categories": [
         "Auteurs",
@@ -34997,6 +35066,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q5127076",
       "wikipedia": "https://fr.wikipedia.org/wiki/Clarisse_Bader",
+      "website": ""
+    },
+    {
+      "name": "Clarisse Frémiet",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q115544284",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -35698,6 +35777,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q20666509",
       "wikipedia": "https://fr.wikipedia.org/wiki/Claude_Deschamps_%28acteur%29",
+      "website": ""
+    },
+    {
+      "name": "Claude Desfeux",
+      "categories": [
+        "Auteurs",
+        "Essayistes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q132753416",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -51446,7 +51535,7 @@
         "Dramaturges"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q72282122",
-      "wikipedia": "",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Florence_Lefebvre",
       "website": ""
     },
     {
@@ -53637,7 +53726,7 @@
         "Essayistes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q33122742",
-      "wikipedia": "",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Coustin",
       "website": ""
     },
     {
@@ -60725,6 +60814,15 @@
       "wikidata": "https://www.wikidata.org/wiki/Q27758484",
       "wikipedia": "https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Ba%C3%AFlac",
       "website": ""
+    },
+    {
+      "name": "Geneviève Besse",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q140997355",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Besse",
+      "website": "https://www.oart.fr/blog/latelier-besse"
     },
     {
       "name": "Geneviève Bianquis",
@@ -68808,6 +68906,20 @@
       "wikidata": "https://www.wikidata.org/wiki/Q3124405",
       "wikipedia": "https://fr.wikipedia.org/wiki/G%C3%A9rard_de_Cortanze",
       "website": "http://www.cortanze.com/index.htm"
+    },
+    {
+      "name": "Gérard de Nerval",
+      "categories": [
+        "Auteurs",
+        "Dramaturges",
+        "Nouvellistes",
+        "Poètes",
+        "Romanciers",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q191305",
+      "wikipedia": "https://fr.wikipedia.org/wiki/G%C3%A9rard_de_Nerval",
+      "website": ""
     },
     {
       "name": "Gérard Deledalle",
@@ -77155,6 +77267,15 @@
       "website": ""
     },
     {
+      "name": "Isabelle Pandazopoulos",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q62592763",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Isabelle_Pandazopoulos",
+      "website": "https://www.isabellepandazopoulos.net/"
+    },
+    {
       "name": "Isabelle Perrin",
       "categories": [
         "Auteurs",
@@ -79754,8 +79875,8 @@
         "Auteurs",
         "Poètes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q2906385",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Bleiz_Lannvau",
+      "wikidata": "https://www.wikidata.org/wiki/Q3159312",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Jacques_Le_Mar%C3%A9chal",
       "website": ""
     },
     {
@@ -79764,8 +79885,8 @@
         "Auteurs",
         "Poètes"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q3159312",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Jacques_Le_Mar%C3%A9chal",
+      "wikidata": "https://www.wikidata.org/wiki/Q2906385",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Bleiz_Lannvau",
       "website": ""
     },
     {
@@ -84908,6 +85029,16 @@
         "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q117793327",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Jean Grassin",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q109380578",
       "wikipedia": "",
       "website": ""
     },
@@ -97112,16 +97243,6 @@
       "website": ""
     },
     {
-      "name": "Jerzy Waldemar Jarocinski",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q3177555",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Waldemar-George",
-      "website": ""
-    },
-    {
       "name": "Jess Kaan",
       "categories": [
         "Auteurs",
@@ -104829,15 +104950,6 @@
       "website": ""
     },
     {
-      "name": "Lasha Otkhmezuri",
-      "categories": [
-        "Auteurs"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q111050766",
-      "wikipedia": "",
-      "website": ""
-    },
-    {
       "name": "Lasse Braun",
       "categories": [
         "Auteurs",
@@ -105304,6 +105416,16 @@
       "wikidata": "https://www.wikidata.org/wiki/Q3218911",
       "wikipedia": "https://fr.wikipedia.org/wiki/Laurence_Lentin",
       "website": ""
+    },
+    {
+      "name": "Laurence Piera",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141257355",
+      "wikipedia": "",
+      "website": "https://laurence.piera.fr"
     },
     {
       "name": "Laurence Plazenet",
@@ -106701,6 +106823,17 @@
       "website": ""
     },
     {
+      "name": "Lionel Destremau",
+      "categories": [
+        "Auteurs",
+        "Poètes",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141899093",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Lionel Duroy",
       "categories": [
         "Auteurs",
@@ -107271,6 +107404,16 @@
       "website": ""
     },
     {
+      "name": "Louis Ballin",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q56117142",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Louis Bard",
       "categories": [
         "Auteurs",
@@ -107768,8 +107911,8 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q124936737",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Louis_d%27Anthoine",
+      "wikidata": "https://www.wikidata.org/wiki/Q133878846",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -107778,8 +107921,8 @@
         "Auteurs",
         "Dramaturges"
       ],
-      "wikidata": "https://www.wikidata.org/wiki/Q133878846",
-      "wikipedia": "",
+      "wikidata": "https://www.wikidata.org/wiki/Q124936737",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Louis_d%27Anthoine",
       "website": ""
     },
     {
@@ -113173,6 +113316,7 @@
       "name": "Léo Lack",
       "categories": [
         "Auteurs",
+        "Poètes",
         "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q16228169",
@@ -115220,6 +115364,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q67175530",
       "wikipedia": "https://fr.wikipedia.org/wiki/Madeleine_Cazamian",
+      "website": ""
+    },
+    {
+      "name": "Madeleine Chamson",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141812272",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -120876,6 +121030,16 @@
       "website": ""
     },
     {
+      "name": "Marie-Josée Lacube",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141937472",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
       "name": "Marie-Laure Crosnier Leconte",
       "categories": [
         "Auteurs"
@@ -122626,6 +122790,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3295761",
       "wikipedia": "https://fr.wikipedia.org/wiki/Martine_Daugreilh",
+      "website": ""
+    },
+    {
+      "name": "Martine de Rabaudy",
+      "categories": [
+        "Auteurs",
+        "Essayistes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q19945019",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Martine_de_Rabaudy",
       "website": ""
     },
     {
@@ -126680,6 +126854,15 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3308926",
       "wikipedia": "https://fr.wikipedia.org/wiki/Michel_Baglin",
+      "website": ""
+    },
+    {
+      "name": "Michel Ballerini",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q122231080",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -135819,6 +136002,15 @@
       "website": "https://oliviermerle-ecrivain.fr"
     },
     {
+      "name": "Olivier Nallis",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141926365",
+      "wikipedia": "",
+      "website": "https://nallis.fr/"
+    },
+    {
       "name": "Olivier Patru",
       "categories": [
         "Auteurs",
@@ -137235,7 +137427,8 @@
     {
       "name": "Patricia Farazzi",
       "categories": [
-        "Auteurs"
+        "Auteurs",
+        "Traducteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3369099",
       "wikipedia": "https://fr.wikipedia.org/wiki/Patricia_Farazzi",
@@ -141191,6 +141384,16 @@
       "website": ""
     },
     {
+      "name": "Paulin Joachim",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q7154912",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Paulin_Joachim",
+      "website": ""
+    },
+    {
       "name": "Paulin Malapert",
       "categories": [
         "Auteurs",
@@ -141685,6 +141888,16 @@
         "Romanciers"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q127211363",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Perrine_Tripier",
+      "website": ""
+    },
+    {
+      "name": "Perrine Vernay",
+      "categories": [
+        "Auteurs",
+        "Traducteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141936550",
       "wikipedia": "",
       "website": ""
     },
@@ -155264,7 +155477,9 @@
     {
       "name": "Roger Ascot",
       "categories": [
-        "Auteurs"
+        "Auteurs",
+        "Poètes",
+        "Romanciers"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q3438657",
       "wikipedia": "https://fr.wikipedia.org/wiki/Roger_Ascot",
@@ -156817,6 +157032,16 @@
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q59531394",
       "wikipedia": "https://fr.wikipedia.org/wiki/Rose_Celli",
+      "website": ""
+    },
+    {
+      "name": "Rose de l'Ange",
+      "categories": [
+        "Auteurs",
+        "Romanciers"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141950711",
+      "wikipedia": "",
       "website": ""
     },
     {
@@ -161476,16 +161701,6 @@
       "wikidata": "https://www.wikidata.org/wiki/Q3501818",
       "wikipedia": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Haber",
       "website": ""
-    },
-    {
-      "name": "Stéphane Hessel",
-      "categories": [
-        "Auteurs",
-        "Poètes"
-      ],
-      "wikidata": "https://www.wikidata.org/wiki/Q165110",
-      "wikipedia": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Hessel",
-      "website": "https://engagezvous.com/"
     },
     {
       "name": "Stéphane Hoarau",
@@ -168966,6 +169181,16 @@
       "website": "https://sites.google.com/site/wenceslasjeangodlewski/home"
     },
     {
+      "name": "Waldemar George",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q3177555",
+      "wikipedia": "https://fr.wikipedia.org/wiki/Waldemar-George",
+      "website": ""
+    },
+    {
       "name": "Wali Mohammadi",
       "categories": [
         "Auteurs",
@@ -170237,6 +170462,15 @@
       "website": "https://theroadtlv.com"
     },
     {
+      "name": "Yohann Abbou",
+      "categories": [
+        "Auteurs"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q141894873",
+      "wikipedia": "",
+      "website": "https://guitarsocialclub.com/a-propos/yohann-abbou-fondateur-guitar-social-club/"
+    },
+    {
       "name": "Yolande de Brossard",
       "categories": [
         "Auteurs"
@@ -171232,6 +171466,16 @@
         "Poètes"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q117875828",
+      "wikipedia": "",
+      "website": ""
+    },
+    {
+      "name": "Yvonne Estassy",
+      "categories": [
+        "Auteurs",
+        "Poètes"
+      ],
+      "wikidata": "https://www.wikidata.org/wiki/Q60607241",
       "wikipedia": "",
       "website": ""
     },
@@ -173548,7 +173792,7 @@
         "Auteurs"
       ],
       "wikidata": "https://www.wikidata.org/wiki/Q117247851",
-      "wikipedia": "",
+      "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89mile_Ackermann",
       "website": ""
     },
     {
